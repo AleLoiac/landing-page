@@ -118,6 +118,21 @@ h2 {
     color: rgb(100, 100, 100);
 }
 
+.quote {
+    padding: 48px 250px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
