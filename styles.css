@@ -139,3 +139,41 @@ h2 {
     text-align: center;
     padding: 48px 0;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-content {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:128px;
+    color:#F9FAF8;
+}
+
+.call button{
+    background-color: #3882F6;
+    padding: 6px 32px;
+    border-radius: 8px;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text{
+    font-size: 18px;
+}
