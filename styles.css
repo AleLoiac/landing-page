@@ -28,7 +28,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero, .header {
@@ -39,6 +40,25 @@ a {
 .hero {
     display: flex;
     padding: 48px 256px;
+}
+
+.hero-content {
+    margin-right: 32px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    padding: 6px 32px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+    border-style: none;
 }
 
 h1 {
